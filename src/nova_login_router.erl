@@ -10,7 +10,6 @@ routes(_Environment) ->
     [#{prefix => "",
       security => false,
       routes => [
-                 {"/login", { nova_login_main_controller, index}, #{methods => [get]}},
-                 {"/assets/[...]", "assets"}
+                 {"/login", { nova_login_main_controller, index}, #{methods => [get]}}
                 ]
       }].
