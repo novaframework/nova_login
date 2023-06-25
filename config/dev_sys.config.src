@@ -25,8 +25,8 @@
                    ]}
         ]},
   {nova_login, [{nova_apps, [novasecure]}]},
-  {novasecure, [{github, #{client_id => <<"d1e36d1bee218a60809b">>,
-                           client_secret => <<"a0a4571fa7b9623bb8ec840a1b86758b7a52672e">>,
+  {novasecure, [{github, #{client_id => CLIENTID,
+                           client_secret => CLIENTSECRET,
                            redirect_url => <<"/user">>}}]}
   %% Please change your app.src-file instead if you intend to add app-specific configurations
 ].
